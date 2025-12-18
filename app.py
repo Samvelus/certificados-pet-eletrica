@@ -15,7 +15,11 @@ from reportlab.pdfbase.ttfonts import TTFont
 from PyPDF2 import PdfReader, PdfWriter, PageObject
 
 # --- CONFIGURAÇÃO DA PÁGINA ---
-st.set_page_config(page_title="Gerador de Certificados PET", layout="wide")
+st.set_page_config(
+        page_title="Gerador de Certificados PET",
+        page_icon="Logo 10 anos - Letra branca (1).png",
+        layout="wide"
+    )
 
 # --- FUNÇÕES UTILITÁRIAS ---
 
