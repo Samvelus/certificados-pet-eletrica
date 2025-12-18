@@ -17,7 +17,7 @@ from PyPDF2 import PdfReader, PdfWriter, PageObject
 # --- CONFIGURAÇÃO DA PÁGINA ---
 st.set_page_config(
         page_title="Gerador de Certificados PET",
-        page_icon="Logo 10 anos - Letra branca.png",
+        page_icon="Logo 10 Anos - Letra Branca.png",
         layout="wide"
     )
 
